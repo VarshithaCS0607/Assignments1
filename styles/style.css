@@ -1,49 +1,58 @@
-
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:darkgray;
-     } 
+  font-size: 10px;
+  /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: 'Times New Roman', Times, serif;
+  background-color: darkgray;
+}
+
 h1 {
-    font-size: 60px;
-    text-align: center;
-    font-family:cursive;
-    margin: 0;
-    padding: 20px 0;
-    color: #261111;
-    text-shadow: 3px 3px 1px gray;
-   }  
+  font-size: 60px;
+  text-align: center;
+  font-family: cursive;
+  margin: 0;
+  padding: 20px 0;
+  color: #261111;
+  text-shadow: 3px 3px 1px gray;
+}
+
 h1.key1 {
-text-align: left;
-font-size: 30px;
-} 
-a,p{
-    font-size: 25px;
-    line-height: 0.5;
-    letter-spacing: 1px;
-    font-family:cursive;
-    color:black;
+  text-align: left;
+  font-size: 30px;
 }
-a{
-    color:midnightblue
+
+a,
+p {
+  font-size: 25px;
+  line-height: 0.5;
+  letter-spacing: 1px;
+  font-family: cursive;
+  color: black;
 }
-  li {
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
-     }
+
+a {
+  color: midnightblue
+}
+
+li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
 body {
-        width:1000px;
-        height: auto;
-        margin: 0 auto;
-        background-color:goldenrod;
-        padding: 0 20px 20px 20px;
-        border: 10px dotted black;
-      }
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: goldenrod;
+  padding: 0 20px 20px 20px;
+  border: 10px dotted black;
+}
+
 ul.square {
-        list-style-type:square;
-      }
+  list-style-type: square;
+}
+
 img {
-        display: block;
-        margin: 0 auto;
-      }
+  display: block;
+  margin: 0 auto;
+}
