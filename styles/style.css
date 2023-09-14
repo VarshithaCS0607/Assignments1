@@ -1,11 +1,10 @@
 html {
   font-size: 10px;
-  /* px means "pixels": the base font size is now 10 pixels high */
   font-family: 'Times New Roman', Times, serif;
   background-color: darkgray;
 }
 
-h1 {
+h1.key1 {
   font-size: 60px;
   text-align: center;
   font-family: cursive;
@@ -15,20 +14,35 @@ h1 {
   text-shadow: 3px 3px 1px gray;
 }
 
-h1.key1 {
+h1.key2 {
   text-align: left;
   font-size: 30px;
 }
-
+h1.key3
+{
+  text-align: left;
+  font-size: 20px;
+  text-decoration: underline;
+}
 a,
-p {
+p.pkey1 {
   font-size: 25px;
   line-height: 0.5;
   letter-spacing: 1px;
   font-family: cursive;
   color: black;
 }
-
+p.pkey2 {
+  font-size: 18px;
+  line-height: 0.2;
+  letter-spacing: 0.5px;
+}
+p.pkey3{
+  font-size: 18px;
+  line-height: 0.2;
+  letter-spacing: 0.5px;
+  font-family: cursive;
+}
 a {
   color: midnightblue
 }
@@ -45,7 +59,7 @@ body {
   margin: 0 auto;
   background-color: goldenrod;
   padding: 0 20px 20px 20px;
-  border: 10px dotted black;
+  border: 10px dashed black;
 }
 
 ul.square {
