@@ -1,72 +1,106 @@
+/* Base- font size, font family, and background color for the entire document */
 html {
   font-size: 10px;
+  /* Set up the base font size to 10 px (pixels)  */
   font-family: 'Times New Roman', Times, serif;
+  /* Defining font family for text first choice is Times New Roman, times is the second 
+                                                choice if first choice is not available, serif is third choice if second is also not available*/
   background-color: darkgray;
+  /* Set up the background color for entire page */
 }
 
+/* Styling for the first-level heading with class "key1" */
 h1.key1 {
   font-size: 60px;
   text-align: center;
+  /* Center-align the text */
   font-family: cursive;
   margin: 0;
+  /* Removing margin to eliminate spacing */
   padding: 20px 0;
+  /* Add padding to the top and bottom */
   color: #261111;
+  /* Set the text color */
   text-shadow: 3px 3px 1px gray;
+  /* Adding a text shadow effect */
 }
 
+/* Styling for the second-level heading with class "key2" */
 h1.key2 {
   text-align: left;
   font-size: 30px;
 }
-h1.key3
-{
+
+/* Styling for the third-level heading with class "key3" */
+h1.key3 {
   text-align: left;
   font-size: 20px;
   text-decoration: underline;
+  /* Underline the text */
 }
+
+/* Styling for links and paragraphs with class "pkey1" */
 a,
 p.pkey1 {
   font-size: 25px;
   line-height: 0.5;
+  /* Adjust line height */
   letter-spacing: 1px;
+  /* Add letter spacing */
   font-family: cursive;
   color: black;
 }
+
+/* Styling for paragraphs with class "pkey2" */
 p.pkey2 {
   font-size: 18px;
   line-height: 0.2;
   letter-spacing: 0.5px;
 }
-p.pkey3{
+
+/* Styling for paragraphs with class "pkey3" */
+p.pkey3 {
   font-size: 18px;
   line-height: 0.2;
   letter-spacing: 0.5px;
   font-family: cursive;
 }
+
+/* Styling for all links */
 a {
-  color: midnightblue
+  color: midnightblue;
+  /* Set link text color */
 }
 
+/* Styling for list items */
 li {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
+/* Styling for the entire body of the document */
 body {
   width: 1000px;
+  /* Set the maximum width of the content */
   height: auto;
+  /* Allow the height to adjust based on content */
   margin: 0 auto;
+  /* Center-align the content horizontally */
   background-color: goldenrod;
   padding: 0 20px 20px 20px;
   border: 10px dashed black;
+  /* Add a dashed border around the body */
 }
 
+/* Styling for unordered lists with square bullets */
 ul.square {
   list-style-type: square;
+  /* Set the list style to square bullets */
 }
 
 img {
   display: block;
+  /* Make the image a block-level element */
   margin: 0 auto;
 }
